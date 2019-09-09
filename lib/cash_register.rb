@@ -6,5 +6,6 @@ class CashRegister
       discount * @total
     else
       @total
+    end
   end
 end
