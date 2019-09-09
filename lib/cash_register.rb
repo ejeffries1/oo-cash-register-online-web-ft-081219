@@ -3,7 +3,8 @@ class CashRegister
   
   @total = 0
   
-  def initialize
+  def initialize(total)
+    @total = total
     @total += 1
   end
 end
